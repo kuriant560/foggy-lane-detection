@@ -1,0 +1,20 @@
+# Environments
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Datasets
+bdd100k_data/
+tusimple/
+
+# Model Weights (too large for GitHub)
+weights/
+*.pth
+*.pt
+
+# IDE and OS files
+.idea/
+.DS_Store
+.streamlit/
