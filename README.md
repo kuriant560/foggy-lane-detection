@@ -9,3 +9,10 @@ This project implements a Deep Learning-based pipeline for robust lane detection
 - **Interactive UI:** Includes a Streamlit web application that allows users to upload test images, adjust model sensitivity dynamically, and view real-time lane predictions.
 - **Fog Mitigation:** Integrates preprocessing dehazing algorithms to assist the U-Net in extreme low-visibility scenarios.
 
+## Project Structure
+- `model/unet.py`: Defines the PyTorch U-Net architecture.
+- `train.py`: The main training loop used to teach the model on the datasets.
+- `evaluate.py`: Calculates quantitative metrics like F1-Score and Intersection over Union (IoU) against a validation set.
+- `dataset_loader.py` & `bdd_loader.py`: Handles loading, transforming, and batching of the TuSimple and BDD100K datasets.
+- `app.py`: The Streamlit web interface for testing the model visually.
+
