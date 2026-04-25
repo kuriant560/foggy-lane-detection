@@ -16,3 +16,10 @@ This project implements a Deep Learning-based pipeline for robust lane detection
 - `dataset_loader.py` & `bdd_loader.py`: Handles loading, transforming, and batching of the TuSimple and BDD100K datasets.
 - `app.py`: The Streamlit web interface for testing the model visually.
 
+## Installation & Setup
+1. **Clone the repository:**
+   ```bash
+   git clone <your-github-repo-link>
+   cd foggy-lane-detection
+   ```
+
