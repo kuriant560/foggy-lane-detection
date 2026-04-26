@@ -34,3 +34,22 @@ This project implements a Deep Learning-based pipeline for robust lane detection
    pip install -r requirements.txt
    ```
 
+4. **Datasets & Weights:**
+   *(Note: Datasets and model weights are not included in this repository due to size constraints. You must download the TuSimple and BDD100k datasets manually and place them in their respective folders, then run `train.py` to generate weights).*
+
+## Running the Application
+To launch the interactive ADAS Vision Engine web interface:
+```bash
+streamlit run app.py
+```
+
+## Running Model Training & Evaluation
+To train the model from scratch:
+```bash
+python train.py
+```
+
+To evaluate the model's accuracy (F1-Score and IoU):
+```bash
+python evaluate.py
+```
